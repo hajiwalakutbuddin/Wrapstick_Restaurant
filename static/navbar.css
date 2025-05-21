@@ -8,6 +8,8 @@
     font-family: "Tektur", sans-serif;
     background-color: rgb(176, 219, 156);
     color: rgb(236, 250, 229);
+    z-index: 1;
+    position: fixed;
 }
 #navbar ul{
     display: flex;
