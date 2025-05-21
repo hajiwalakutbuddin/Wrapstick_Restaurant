@@ -1,10 +1,14 @@
+#home-1{
+    background-color: rgb(202, 232, 189);
+}
 h1{
-    color: #333;
+    color: rgb(221, 246, 210);
     font-size: 2em;
     text-align: center;
+
 }
 p{
-    color: #666;
+    color: rgb(221, 246, 210);
     font-size: 1.2em;
     text-align: center;
 }
