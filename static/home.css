@@ -1,3 +1,6 @@
+#home-1{
+    height: 700px;
+}
 #home-1::before{
     content: "";
     position: absolute;
@@ -5,7 +8,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url("static/images/home-img.jpg");
+    background-image: url("images/home-img.jpg");
     background-size: cover;
     background-position: center;
     opacity: 0.5;
