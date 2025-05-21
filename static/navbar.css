@@ -6,8 +6,8 @@
 /* Navbar */
 #navbar{
     font-family: "Tektur", sans-serif;
-    background-color: rgb(33, 30, 30);
-    color: rgb(255, 255, 255);
+    background-color: rgb(176, 219, 156);
+    color: rgb(236, 250, 229);
 }
 #navbar ul{
     display: flex;
@@ -21,7 +21,7 @@
 #navbar li a{
     text-decoration: none;
     padding: 5px 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(236, 250, 229);
     font-size: 1.4rem;
 }
 #navbar li a:hover{
@@ -31,6 +31,6 @@
 /* Footer  */
 #footer{
     height: 50px;
-    background-color: rgb(33, 30, 30);
-    color: rgb(255, 255, 255);
+    background-color: rgb(176, 219, 156);
+    color:rgb(236, 250, 229);
 }
