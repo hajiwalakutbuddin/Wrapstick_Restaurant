@@ -28,3 +28,9 @@
     font-weight: bold;
     color: rgb(69, 47, 105);
 }
+/* Footer  */
+#footer{
+    height: 50px;
+    background-color: rgb(33, 30, 30);
+    color: rgb(255, 255, 255);
+}
