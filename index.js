@@ -15,6 +15,9 @@ app.get('/',(req,res)=>{
     const params = {}
     res.status(200).render('home',params)
 });
+app.get('/order', (req, res) => {
+    res.render('order');
+});
 
 //STARTING THE SERVER
 const PORT = process.env.PORT || 3000;
