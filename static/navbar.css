@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navbar */
+#navbar{
+    font-family: "Tektur", sans-serif;
+    background-color: rgb(33, 30, 30);
+    color: rgb(255, 255, 255);
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+}
+#navbar li a:hover{
+    font-weight: bold;
+    color: rgb(69, 47, 105);
+}
