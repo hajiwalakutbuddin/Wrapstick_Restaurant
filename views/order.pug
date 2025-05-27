@@ -1,10 +1,92 @@
 extends layout.pug 
-
+block scripts 
+    script(src="/static/javascript/order.js") 
 block style 
-    link(rel="stylesheet", href="/static/order.css")
+    link(rel="stylesheet", href="/static/CSS/order.css")
 block content
     div#order
-        h1 Order online 
-        p We are happy to serve you!
-        p Please select your items from the menu and place your order online.
+        .h-text 
+            h1 Order online 
+            p We are happy to serve you!
+            p Please select your items from the menu and place your order online.
+        .menu-items 
+            .card-1 
+                .pic 
+                    img(src="/static/images/b.png", alt="Burger")
+                .text
+                    h3 BURGER
+                    p A delicious burger with fried chicken patty,cheese,lettuce and BBQ sauce. 
+                    p Price: $5.99
+                .quantity-selector
+                    button(type="button", class="minus") -
+                    span.quantity 0
+                    button(type="button", class="plus") +
+                    button(type="button", class="add-to-cart") Add to Cart
+            .card-1 
+                .pic 
+                    img(src="/static/images/w.png", alt="wrap")
+                .text
+                    h3 WRAP
+                    p A delicious wrap with fried chicken strips,vegetables, and delicious sauces. 
+                    p Price: $4.99
+                .quantity-selector
+                    button(type="button", class="minus") -
+                    span.quantity 0
+                    button(type="button", class="plus") +
+                    button(type="button", class="add-to-cart") Add to Cart
+            .card-1 
+                .pic 
+                    img(src="/static/images/p-2.jpeg", alt="popcorn")
+                .text
+                    h3 POPCORN 
+                    p Delicious fried chicken popcorn. 
+                    p Price: $6.99
+                    br
+                .quantity-selector
+                    button(type="button", class="minus") -
+                    span.quantity 0
+                    button(type="button", class="plus") +
+                    button(type="button", class="add-to-cart") Add to Cart
+            .card-1 
+                .pic 
+                    img(src="/static/images/d.png", alt="popcorn")
+                .text
+                    h3 DRUMSTICK 
+                    p Delicious fried chicken drumstick with peri-peri seasoning. 
+                    p Price: $7.99
+                .quantity-selector
+                    button(type="button", class="minus") -
+                    span.quantity 0
+                    button(type="button", class="plus") +
+                    button(type="button", class="add-to-cart") Add to Cart
+            .card-1 
+                .pic 
+                    img(src="/static/images/d.png", alt="popcorn")
+                .text
+                    h3 DRUMSTICK 
+                    p Delicious fried chicken drumstick with peri-peri seasoning. 
+                    p Price: $7.99
+                .quantity-selector
+                    button(type="button", class="minus") -
+                    span.quantity 0
+                    button(type="button", class="plus") +
+                    button(type="button", class="add-to-cart") Add to Cart
+            .card-1 
+                .pic 
+                    img(src="/static/images/d.png", alt="popcorn")
+                .text
+                    h3 DRUMSTICK 
+                    p Delicious fried chicken drumstick with peri-peri seasoning. 
+                    p Price: $7.99
+                .quantity-selector
+                    button(type="button", class="minus") -
+                    span.quantity 0
+                    button(type="button", class="plus") +
+                    button(type="button", class="add-to-cart") Add to Cart
+        .cart-summary
+            .cart 
+                h2 Cart
+                ul.cart-items
+                p.cart-total Total: $0.00
+
         

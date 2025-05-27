@@ -1,0 +1,133 @@
+#order{
+    background-color: rgb(165, 56, 96);
+    height: auto;
+    min-height: 100vh;
+    
+}
+.menu-items{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+/* Heading text */
+.h-text{
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.h-text h1{
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+.h-text p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 0;
+    color: white;
+}
+/* Images */
+.pic{
+    /* width: 200px;
+    height: 200px; */
+    border: radius 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic img{
+    width: 130px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+/* Cards */
+.card-1{
+    margin: 20px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    flex: 0 1 300px;
+    padding: 20px;
+    width: 240px;
+    height: 360px;  
+    background-color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid darkred;
+    border-radius: 20px;
+}
+/* Card paragraphs */
+.card-1 p{
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+    margin: 10px 0;
+}
+/* buttons */
+.quantity-selector{
+    padding: 10px 0;
+    background-color: yellow;
+    border: 2px solid darkred;
+    border-radius: 20px;
+}
+.minus, .plus{
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+.add-to-cart{
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/* Cart  */
+.cart-summary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    /* margin-top: 20px; */
+}
+.cart{
+    width: auto;
+    margin: 0px 190px;
+    height: auto;
+    justify-content: center;
+    min-width: 400px;
+    background-color: aliceblue;
+    padding: 40px;
+    border: 2px solid darkred;
+    border-radius: 20px;
+}
+.cart-summary h2{
+    text-align: center;
+    color: darkred;
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.cart-items{
+    font-size: 20px;
+    color: black;
+    margin: 9px 0;
+
+}
+.cart-total{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkred;
+    margin-top: 20px;
+    text-align: center;
+}

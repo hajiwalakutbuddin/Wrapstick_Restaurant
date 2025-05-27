@@ -1,0 +1,19 @@
+.container{
+    height: 500px;
+    min-height: 100vh;
+    background-color: rgb(165, 56, 96);
+}
+.heading{
+    padding-top: 90px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.heading h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.heading p{
+    font-size: 2rem;
+    text-align: center;
+}

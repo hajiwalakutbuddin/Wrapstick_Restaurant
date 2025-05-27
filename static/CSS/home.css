@@ -1,0 +1,64 @@
+#home-1{
+    height: 500px;
+    min-height: 100vh;
+    position: relative;
+    padding-top: 50px;
+}
+#home-1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("/static/images/home-img.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: 0;
+}
+.hh{
+    padding-top: 90px;
+}
+#home-1 h1{
+    color: rgb(103, 13, 47);
+    font-size: 4rem;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+
+}
+#home-1 p{
+    color: rgb(103, 13, 47);
+    font-size: 2rem;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+}
+.btn-h{
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    background-color: rgb(103, 13, 47);
+    border-radius: 15px;
+    font-size: 1.4rem;
+    margin: 20px 350px;
+    width: auto;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    z-index: 4;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+
+}
+.btn-h a{
+    color: white;
+    text-decoration: none;
+}
+.btn-h:hover{
+    background-color: rgb(165, 56, 96);
+}
+.btn-h, .btn-h:link, .btn-h:visited, .btn-h:hover, .btn-h:active {
+    text-decoration: none !important;
+}

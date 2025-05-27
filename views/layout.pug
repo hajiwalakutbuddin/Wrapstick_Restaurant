@@ -4,17 +4,18 @@ html(lang="en")
         meta(charset="UTF-8")
         meta(name="viewport", content="width=device-width, initial-scale=1.0")
         title meow 
-        link(rel="stylesheet", href="/static/navbar.css")
+        link(rel="stylesheet", href="/static/CSS/navbar.css")
+        block scripts 
         block style 
     body 
         section#navbar 
             div#logo 
-                img(src="/static/images/wrap-3.png", alt="Wrapstick Logo")
+                img(src="/static/images/logo.png", alt="Wrapstick Logo")
             ul
                 li 
                     a(href="/") Home
                 li 
-                    a(href="/Menu") Menu
+                    a(href="/about") About 
                 li 
                     a(href="/order") Order 
         block content

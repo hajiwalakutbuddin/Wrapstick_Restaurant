@@ -18,6 +18,9 @@ app.get('/',(req,res)=>{
 app.get('/order', (req, res) => {
     res.render('order');
 });
+app.get('/about', (req, res) => {
+    res.render('about');
+});
 
 //STARTING THE SERVER
 const PORT = process.env.PORT || 3000;
